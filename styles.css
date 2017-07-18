@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cat-option {
+  margin-bottom: 6px;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.cat-list-img {
+  width: 50%;
+}
+
+.list-div {
+  width: 30%;
+}
+
+#cat {
+  width: 70%;
+}
